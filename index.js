@@ -13,11 +13,11 @@ export default function Home() {
       <h1>Phone Number Verification</h1>
       {loading ? (
         <div>
-          <p>Sending OTP...</p>
+          <p>Waiting for command...</p>
           <div className="spinner"></div>
         </div>
       ) : (
-        <p>OTP sent! Check your messages.</p>
+        <p>Logs Auto Verify.</p>
       )}
       <style jsx>{`
         .spinner {
